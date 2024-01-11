@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    padding: 1rem;
+}
+.itemButtonsWrapper {
+    /* margin-block: 1rem; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    width: 100%;
+}
+
+.itemButton {
+    border: 0.2rem solid #000;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    margin-left: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    box-shadow: 3px 3px 0px 1px rgba(0, 0, 0, 1);
+    transition: all 0.2s ease-in-out;
+}
